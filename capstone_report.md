@@ -5,7 +5,8 @@
 - **Repo:https://github.com/kanav-codes/mlflyrank/**
 - **Date:August 25, 2026**
 
-
+## Abstract
+As search portfolios scale into millions of pages, traditional manual editorial reviews fail to keep pace with algorithmic shifts and traffic decay, leading to wasted content operations effort. This study investigates whether a multi-signal ranking model can automatically prioritize aging web assets for strategic updates. Using a time-aware validation split on historical enterprise search data, we formulated a multi-signal priority score combining volume, CTR, and decay indicators. The resulting model achieved an NDCG@20 of 0.761 (compared to 0.620 for the baseline rule), providing a robust decision-support heuristic to guide editorial teams on what content to refresh first.
 
 ## 1. Problem framing
 
@@ -107,3 +108,6 @@ python scripts/generate_charts.py
 ## Claims checklist before submitting: observed / measured / directional / decision-support
 Metrics vs. base rate: report your task's base rate (majority-class %) next to any precision@K or accuracy — a high score can just be a high base rate. AUC / lift over baseline are the honest discrimination numbers.
 language everywhere · no causal claims without an experiment or causal design · no "predicted Google's algorithm" · no client-identifying details · numbers in this report match a fresh re-run.
+
+## Acknowledgments & Data Credit
+Built on the FlyRank ML Internship dataset. For more details on the underlying telemetry and framework, visit [FlyRank](https://flyrank.ai).
