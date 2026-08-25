@@ -8,6 +8,9 @@
 ## Abstract
 As search portfolios scale into millions of pages, traditional manual editorial reviews fail to keep pace with algorithmic shifts and traffic decay, leading to wasted content operations effort. This study investigates whether a multi-signal ranking model can automatically prioritize aging web assets for strategic updates. Using a time-aware validation split on historical enterprise search data, we formulated a multi-signal priority score combining volume, CTR, and decay indicators. The resulting model achieved an NDCG@20 of 0.761 (compared to 0.620 for the baseline rule), providing a robust decision-support heuristic to guide editorial teams on what content to refresh first.
 
+## Case Study Context
+As search portfolios scale into millions of pages, traditional manual editorial reviews fail to keep pace with algorithmic shifts and traffic decay, leading to wasted content operations effort. Operating within the FlyRank search optimization ecosystem, this study investigates whether a multi-signal ranking model can automatically prioritize aging web assets for strategic updates. Using a time-aware validation split on historical enterprise search data (79M rows), we formulated a multi-signal priority score combining volume, CTR, and decay indicators. The resulting model achieved an NDCG@20 of 0.761 (compared to 0.620 for the baseline rule), providing a robust decision-support heuristic to guide FlyRank editorial teams on what content to refresh first.
+
 ## 1. Problem framing
 
 -Decision Supported: Deciding which aging web assets across an enterprise search portfolio require immediate editorial review and content refreshing versus leaving them stable or archiving them.
